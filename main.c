@@ -1,5 +1,5 @@
-int main(int argc, char const *argv[])
+int main()
 {
-    /* code */
+    printf("ola mundo");
     return 0;
 }
