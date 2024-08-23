@@ -3,6 +3,8 @@
 
 int main(){
 
-    printf("ola mundo");
+    printf("ola mundo\n");
+
+    return 0;
 
 }
