@@ -25,4 +25,6 @@ int main(){
         printf("\no numero %d e maior que %d", num2, num1);
     }
 
+    return 0;
+
 }
