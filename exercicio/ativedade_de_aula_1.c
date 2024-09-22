@@ -7,31 +7,65 @@ int main(){
     int num = 0, cont = 0;
     int par;
     int quanto;
+    int escolhar;
 
-    printf("quantos numeros par que voce quer que apareca?\n");
-    scanf("%d", &quanto);
+    printf("1 para par, 2 para impar\n");
+    scanf("%d", &escolhar);
 
-    printf("----------------------------------------------1\n");
+    if(escolhar == 1){
+        printf("quantos numeros par que voce quer que apareca?\n");
+        scanf("%d", &quanto);
 
-    quanto = quanto * 2;
+        printf("----------------------------------------------\n");
 
-    for (i = 0; i < quanto; i++){
+        quanto = quanto * 2;
 
-        cont++;
+        for (i = 0; i < quanto; i++){
 
-        num = cont;
+            cont++;
 
-        par = num % 2;
+            num = cont;
 
-        if(par == 0){
+            par = num % 2;
 
-            printf("%d\n", cont);
+            if(par == 0){
+
+                printf("%d\n", cont);
+
+            }
+
+            num = 0;
 
         }
 
-        num = 0;
-
     }
+    else{
+        printf("quantos numeros impar que voce quer que apareca?\n");
+        scanf("%d", &quanto);
+
+        printf("----------------------------------------------\n");
+
+        quanto = quanto * 2;
+
+        for (i = 0; i < quanto; i++){
+
+            cont++;
+
+            num = cont;
+
+            par = num % 2;
+
+            if(par == 1){
+
+                printf("%d\n", cont);
+
+            }
+
+            num = 0;
+
+        }
+    }
+    
 
 
     return 0;
