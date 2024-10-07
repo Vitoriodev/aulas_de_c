@@ -4,9 +4,7 @@
 void tabela(){
 
     printf("sejam bem vindo, selecione o numero para qual tipo de tabuada voc quer\n ");
-    printf("* = 1, + = 2, - = 3, / = 4\n");
-    
-
+    printf("* = 1, + = 2, - = 3, / = 4\n"); 
 }
 
 int main(){
